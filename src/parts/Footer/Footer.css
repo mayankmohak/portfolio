@@ -1,0 +1,16 @@
+.footer-container-wrapper__footer-role {
+    text-align: center;
+    padding-top: 5rem;
+}
+.footer-container-wrapper__footer-social-links {
+    text-align: center;
+    padding-bottom: 3rem;
+
+}
+.footer-container-wrapper__footer-social-links a {
+    padding-right: 2rem;
+}
+
+.footer-container-wrapper__footer-social-links a img{
+    height: 40px;
+}
