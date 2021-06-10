@@ -1,0 +1,7 @@
+.App{
+  cursor: url(../src/assets/icons/pnt.png) 15 15, auto;
+}
+
+a:-webkit-any-link{
+  cursor: url(../src/assets/icons/pnt.png) 15 15, auto;
+}

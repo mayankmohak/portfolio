@@ -1,0 +1,41 @@
+nav {
+    width: 100%;
+    padding-top: 2rem;
+ 
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 2rem auto;
+}
+ul li {
+    padding-right: 1rem;
+    display: inline-block;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .5s;
+    
+}
+ul li a:link {
+    color: grey;
+}
+ul li a:visited {
+    color: grey;
+}
+ul li a:hover {
+    color: grey;   
+}
+ul li a.active {
+    color: #000205!important;
+}
+
+
+
+
+
