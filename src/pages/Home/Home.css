@@ -141,3 +141,13 @@ a, a:hover{
 strong{
     font-weight: bold;
 }
+
+.download-resume {
+    font-size: large;
+    font-family: Verdana;
+}
+
+.download-resume a {
+    text-decoration: none;
+    text-shadow: 0px 2px 7px #000000;
+}
