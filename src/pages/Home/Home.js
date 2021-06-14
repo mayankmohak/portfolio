@@ -34,7 +34,7 @@ class Home extends Component {
                             <p>I am a <strong>Team Player</strong> and love Team Work.</p>
 
                             {/* <p>In Co-Curricular Activities I am a good chess player and won awards at inter-school level. Outdoor Sports are my first Preferance. </p> */}
-                            <div className="download-resume"><a href="../../../resume.pdf">RESUME</a></div>
+                            <div className="download-resume"><a href="https://drive.google.com/file/d/1q7ANmeCZXAgt7GbRTl8typxbC_Nt-TeU/view?usp=sharing">RESUME</a></div>
                         </div>
                         <div className="about-me__col-image">
                             <img src={profile} alt="my-profile" className="about-me__col-image__profile-image" />
