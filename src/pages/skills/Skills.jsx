@@ -55,12 +55,14 @@ class Skills extends Component {
               <li>BootStrap</li>
               <li>CSS 3</li>
               <li>GitHub Actions</li>
+              <li>tkinter (PYTHON)</li>
+              <li>Swing (java)</li>
+              <li>AWT (java)</li>
               <li>Numpy</li>
               <li>Pandas</li>
               <li>AIML</li>
               <li>MySQL</li>
               <li>SQLite 3</li>
-              <li>tkinter</li>
             </ul>
           </div>
         </div>
