@@ -16,22 +16,22 @@ class Footer extends Component {
             <div className="footer-container-wrapper">
                 <p className="footer-container-wrapper__footer-role">Mayank Mohak - OpenSource Enthusiast</p>
                 <div className="footer-container-wrapper__footer-social-links">
-                    <a href="https://github.com/mayankmohak" target="__blank">
+                    <a  href="https://github.com/mayankmohak" target="_blank" rel="noreferrer">
                         <img src={githubIcon}  alt="My Github Page" />
                     </a>
-                    <a href="https://www.linkedin.com/in/mayankmohak/" target="__blank">
+                    <a href="https://www.linkedin.com/in/mayankmohak/" target="__blank" rel="noreferrer">
                         <img src={linkedinIcon}  alt="My Linkedin Page" />
                     </a>
-                    <a href="mailto:mayank8199@gmail.com" target="__blank">
+                    <a href="mailto:mayank8199@gmail.com" target="__blank" rel="noreferrer">
                         <img src={mailIcon}  alt="Send me email" />
                     </a>
-                    <a href="mailto:mayank8199@gmail.com" target="__blank">
+                    <a href="https://www.codechef.com/users/mayankmohak" target="__blank" rel="noreferrer">
                         <img src={codechefIcon}  alt="CodeChef" />
                     </a>
-                    <a href="mailto:mayank8199@gmail.com" target="__blank">
+                    <a href="https://codeforces.com/profile/mayankmohak" target="__blank" rel="noreferrer">
                         <img src={codeforceIcon}  alt="CodeForces" />
                     </a>
-                    <a href="mailto:mayank8199@gmail.com" target="__blank">
+                    <a href="https://hackerrank.com/mayankmohak" target="__blank" rel="noreferrer">
                         <img src={hackerrankIcon}  alt="HackerRank" />
                     </a>
                 </div>

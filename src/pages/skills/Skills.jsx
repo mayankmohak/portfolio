@@ -19,6 +19,7 @@ class Skills extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="title"> &nbsp; SKILLS</div>
         <div id="skills">
           <div class="skills">
             <h2 class="heading">My Domain</h2>
@@ -26,7 +27,8 @@ class Skills extends Component {
               <li>Web Development</li>
               <li>Frontend</li>
               <li>Backend</li>
-              <li>DBMS</li>
+              <li>R-DBMS</li>
+              <li>Object Orieted Programming</li>
               <li>Problem Solving</li>
               <li>Data Structures & Algorithms</li>
               <li>Competitive Coding</li>

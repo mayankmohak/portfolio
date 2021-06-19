@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './pages/Home/Home'
 // import Blog from './pages/Blog/Blog'
 import Projects from './pages/Projects/Projects'
-// import Resume from './pages/Resume/Resume'
+import Education from './pages/Education/Education'
 import Footer from './parts/Footer/Footer'
 import Contact from './pages/Contact/Contact'
+// Skills
+import Skills from "./pages/skills/Skills"
 import './App.css';
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
           </Route>
 
         </Switch> */}
+        <Education />
+        <Skills />
         <Projects />
         <Contact />
         {/* <Achivement /> */}

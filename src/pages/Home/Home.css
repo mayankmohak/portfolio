@@ -142,6 +142,7 @@ strong{
 .download-resume {
     font-size: large;
     font-family: Verdana;
+    color: white !important;
 }
 
 .download-resume a {
