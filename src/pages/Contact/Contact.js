@@ -11,21 +11,15 @@ function Contact() {
         <br />
         <br />
         <p className="title"> &nbsp; Contact me</p>
-        <form id="contact-form" className="col-lg-8 mx-auto" method="post" action="#">
+        <form id="contact-form" className="col-md-6 mx-auto" method="post" action="#">
           <div className="controls">
-            <div className="d-inline-block">
-              <input type="text" name="name" placeholder="Your firstname *" required className="form-control" />
+            <div className="col-md-6 d-inline-block">
+              <input type="text" name="name" placeholder="Name *" required className="form-control" />
             </div>
-            <div className="d-inline-block">
-              <input type="text" name="surname" placeholder="Your lastname *" required className="form-control" />
+            <div className="col-md-6 d-inline-block">
+              <input type="text" name="email" placeholder="Email *" required className="form-control" />
             </div>
-            <div className="d-inline-block">
-              <input type="text" name="email" placeholder="Your email *" required className="form-control" />
-            </div>
-            <div className="d-inline-block">
-              <input type="text" name="phone" placeholder="Your phone *" className="form-control" />
-            </div>
-            <div className="col-md-11">
+            <div className="col-md-12">
               <textarea name="message" placeholder="Message for me *" rows="4" required className="form-control"></textarea>
             </div>
             <div className="col-md-12 text-center">
