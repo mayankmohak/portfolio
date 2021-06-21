@@ -45,7 +45,8 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="about-me-col-image">
-                            <img src={profile} alt="my-profile" className="about-me-col-image-profile-image" />
+                            <img id="image" src={profile} alt="my-profile" className="about-me-col-image-profile-image" />
+                            
                         </div>
                     </div>
                 </div>
