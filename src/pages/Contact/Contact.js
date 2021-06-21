@@ -7,7 +7,7 @@ function Contact() {
     <React.Fragment>
 
       {/*  Contact */}
-      <section id="contact" data-animate="bounceIn" classNameName="contact-section contact">
+      <section id="contact" data-animate="bounceIn" className="contact-section contact">
         <br />
         <br />
         <p className="title"> &nbsp; Contact me</p>

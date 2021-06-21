@@ -23,13 +23,15 @@ class Home extends Component {
     render() {
         return (
             <React.Fragment>
+                <br /><br />
                 <h1 className="titlename">Mayank Mohak | मयंक मोहक</h1>
                 <div className="about-me">
-                    <div className="about-me__row">
-                        <div className="about-me__col-description">
+                    <div className="about-me-row">
+                        <div className="about-me-col-description">
+                            <br /><br />
                             <p>I am currently pursuing <strong>Bachelors of Technology</strong> in the field of Computer Science and Engineering at <strong>GIET University</strong>.</p>
                             <p>I am skilled in domain of <strong>Web Development</strong>, <strong>Problem Solving</strong> and <strong>Data Structure & Algorithms</strong>.</p>
-                            
+
                             <p> I regularly do <strong>Competitive Coding</strong> and regular at <strong><a href="https://www.codechef.com/users/mayankmohak">CodeChef</a></strong> and <strong><a href="http://codeforces.com/profile/mayankmohak">Codeforces</a></strong>. On <strong><a href="https://www.hackerrank.com/mayankmohak">HackerRank</a></strong> completed <strong>C</strong> and <strong>JAVA</strong> language Problem Set.</p>
 
                             <p>I am also an <strong><a href="https://github.com/mayankmohak">OpenSource</a></strong> Enthusiast and had participated in 2 OpenSource events and contributed to 20+ GitHub Repositories and also regularly looking for more.</p>
@@ -39,11 +41,11 @@ class Home extends Component {
                             {/* <p>In Co-Curricular Activities I am a good chess player and won awards at inter-school level. Outdoor Sports are my first Preferance. </p> */}
                             <div className="download-resume">
                                 <a target="_blank" className="sbtn neon-border-btn black-btn" href="https://drive.google.com/file/d/1q7ANmeCZXAgt7GbRTl8typxbC_Nt-TeU/view?usp=sharing" rel="noreferrer">
-                                <i class="bi bi-eye"></i> RESUME</a>
+                                    <i class="bi bi-eye"></i> RESUME</a>
                             </div>
                         </div>
-                        <div className="about-me__col-image">
-                            <img src={profile} alt="my-profile" className="about-me__col-image__profile-image" />
+                        <div className="about-me-col-image">
+                            <img src={profile} alt="my-profile" className="about-me-col-image-profile-image" />
                         </div>
                     </div>
                 </div>

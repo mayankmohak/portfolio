@@ -6,6 +6,7 @@ class Education extends Component {
   render() {
     return (
       <React.Fragment>
+        <br /><br /><br />  
         <div className="title"> &nbsp; EDUCATION</div>
         <br /><br />
         <div class="timeline">

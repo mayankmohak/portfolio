@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from "react"
+
 
 // import Header from './parts/Header/Header';
 import Home from './pages/Home/Home'
@@ -13,8 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div id="mov" className="cursor"></div>
+    // <Router>
       <div className="App">
         {/* <Header /> */}
         <Home />
@@ -42,7 +43,7 @@ function App() {
         <Footer />
   
       </div>
-    </Router>
+    // </Router>
   );
 }
 

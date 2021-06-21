@@ -11,7 +11,7 @@ h1 {
     width: 100%;
     margin: 1rem auto;
 }
-.about-me__row {
+.about-me-row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,32 +19,33 @@ h1 {
     align-items: center;
 }
 
-.about-me__col-description {
+.about-me-col-description {
     width: 80%;
     line-height: 2rem;
 }
-.about-me__col-image {
+.about-me-col-image {
    width: 80%;
    text-align: center;
+   padding-top: 4rem;
 }
-.about-me__row p {
+.about-me-row p {
    letter-spacing: 1px;
    font-weight: lighter;
 }
 
-.about-me__col-image__profile-image {
+.about-me-col-image-profile-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0px 0px 100px rgb(83, 76, 76);
+    box-shadow: 0rem 0rem 10rem rgb(83, 76, 76);
 }
 
 @media screen and (min-width: 800px) {
     .about-me {
         width: 70%;
-        margin: 1rem auto;
+        margin-left: 10rem;
     }
-    .about-me__row {
+    .about-me-row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -52,23 +53,21 @@ h1 {
         flex: 1;
         align-items: center;
     }
-    .about-me__col-description {
+    .about-me-col-description {
         width: 70%;
         line-height: 2rem;
     }
-    .about-me__row p {
+    .about-me-row p {
         letter-spacing: 1px;
         font-weight: lighter;
-        
-     }
-     .about-me__col-image {
+    }
+    .about-me-col-image {
         width: 10%;
-        padding-right: 10rem;
-     
-     }
-    .about-me__col-image__profile-image {
-        width: 300px;
-        height: 300px;
+        padding-right: 15rem;
+    }
+    .about-me-col-image-profile-image {
+        width: 450px;
+        height: 450px;
         border-radius: 50%;
     }
 }
@@ -78,13 +77,13 @@ h1 {
 .skills {
     width: 100%;
 }
-.skills__container-wrapper {
+.skills-container-wrapper {
     width: 70%;
     padding: 10px;
     margin: 1rem auto;
 }
 
-.skills__container-wrapper__skills-flex {
+.skills-container-wrapper-skills-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -93,24 +92,24 @@ h1 {
     padding: 20px 0px;     
 }
 
-.skills__container-wrapper__skills-flex__icon-container {
+.skills-container-wrapper-skills-flex-icon-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-right: 5px;      
 }
-.skills__container-wrapper__skills-flex__icon-container span {
+.skills-container-wrapper-skills-flex-icon-container span {
     font-weight: bold;
 }
 
 @media screen and (min-width: 800px) { 
-    .skills__container-wrapper__skills-flex {
+    .skills-container-wrapper-skills-flex {
         justify-content: space-between;
         width: 80%;   
     }
 
-    .skills__container-wrapper__skills-flex__icon-container  {
+    .skills-container-wrapper-skills-flex-icon-container  {
         margin-right: 0;
     }
 }
