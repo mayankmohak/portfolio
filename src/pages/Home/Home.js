@@ -40,7 +40,7 @@ class Home extends Component {
 
                             {/* <p>In Co-Curricular Activities I am a good chess player and won awards at inter-school level. Outdoor Sports are my first Preferance. </p> */}
                             <div className="download-resume">
-                                <a target="_blank" className="sbtn neon-border-btn black-btn" href="https://drive.google.com/file/d/1q7ANmeCZXAgt7GbRTl8typxbC_Nt-TeU/view?usp=sharing" rel="noreferrer">
+                                <a target="_blank" className="sbtn neon-border-btn black-btn" href="https://drive.google.com/file/d/16l5EEdPrsv1J72cWI19vIAxPur5SIBtq/view?usp=sharing" rel="noreferrer">
                                     <i class="bi bi-eye"></i> RESUME</a>
                             </div>
                         </div>
