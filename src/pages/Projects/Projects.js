@@ -63,7 +63,7 @@ class Projects extends Component {
                         <Card
                             id="5"
                             projectname="Spin Wheel"
-                            details="This is simple game made in JavaScript. Different types of animations are being created in java script to make it look attractive though it is a fun activity."
+                            details="This is as simple game made in JavaScript. Different types of animations are being created in java script to make it look attractive though it is a fun activity."
                             img={spinImg}
                             gitlink="https://github.com/mayankmohak/SpinWheel-Santa"
                             hostlink="https://github.com/mayankmohak/SpinWheel-Santa"
